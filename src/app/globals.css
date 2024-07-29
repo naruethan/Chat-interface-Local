@@ -25,6 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.user-message {
+  text-align: right;
+  background-color: #d1ffd6;
+}
 
 @layer utilities {
   .text-balance {

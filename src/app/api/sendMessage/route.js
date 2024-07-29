@@ -13,7 +13,7 @@ export async function POST(req) {
     ],
     stream: false,
   });
-  console.log(response.data.message.content); //test
+  console.log(response.data.message.content);
 
   return Response.json(response.data.message.content);
 }
